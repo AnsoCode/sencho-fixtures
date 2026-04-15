@@ -1,7 +1,5 @@
 services:
   web:
-    image: nginx:alpine
+    image: this-image-does-not-exist-sencho-test:definitely-not-real-9999
     ports:
-      - "8089:80"
-    environment:
-      - MODE=${MODE:-prod}
+      - "8093:80"
