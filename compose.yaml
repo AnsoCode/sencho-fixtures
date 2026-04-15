@@ -2,6 +2,4 @@ services:
   web:
     image: nginx:alpine
     ports:
-      - "8089:80"
-    environment:
-      - MODE=${MODE:-prod}
+      - "8092:80"
