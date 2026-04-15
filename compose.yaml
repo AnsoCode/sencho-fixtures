@@ -1,7 +1,3 @@
-services:
-  web:
-    image: nginx:alpine
-    ports:
-      - "8089:80"
-    environment:
-      - MODE=${MODE:-prod}
+version https://git-lfs.github.com/spec/v1
+oid sha256:abcdef1234567890abcdef1234567890abcdef1234567890abcdef1234567890
+size 1024
