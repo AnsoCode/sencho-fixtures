@@ -1,0 +1,7 @@
+services:
+  web:
+    image: nginx:alpine
+    ports:
+      - "8090:80"
+    environment:
+      - TARGET=${TARGET:-unset}
