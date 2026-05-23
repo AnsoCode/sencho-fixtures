@@ -5,4 +5,3 @@ services:
       - "8089:80"
     environment:
       - MODE=${MODE:-prod}
-      - J13_DISMISS=true
